@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel = "stylesheet" href = "../css/signup.css">
+  
+    <title> Signup</title>
+</head>
+<body>
+
+    <div class="main-content container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="signup-card">
+      <h1 class="text-center text-primary mb-4">Smart Login System</h1>
+
+      <div id="signup-form">
+       
+        <div class="mb-3 input-group">
+          
+          <input type="text" class="form-control" placeholder="Username" id="username-input" required />
+        </div>
+        <div id="username-error" class="text-danger mb-3 small"></div>
+
+        
+        <div class="mb-3 input-group">
+          
+          <input type="email" class="form-control" placeholder="Email" id="email-input" required />
+        </div>
+        <div id="email-error" class="text-danger mb-3 small"></div>
+
+      
+        <div class="mb-3 input-group">
+          
+          <input type="password" class="form-control" placeholder="Password" id="password-input" required />
+        </div>
+        <div id="password-error" class="text-danger mb-3 small"></div>
+
+        <button type="signup-btn" class="btn btn-primary w-100" id="signup-btn">Sign Up</button>
+      </div>
+
+      <p class="text-center mt-3 mb-0">
+        Already have an account? <a href="login.html" class="text-primary text-decoration-none">Login</a>
+      </p>
+
+      
+    </div>
+  </div>
+
+
+
+   
+    <script src = "../js/signup.js">
+    </script>
+    
+</body>
+</html>
